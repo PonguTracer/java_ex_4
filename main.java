@@ -1,12 +1,19 @@
 import java.util.Scanner;
 
-public class Main {
+public class LabProgram {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);        
       /* Type your code here. */
-      String name = scnr.nextLine();
-      String age = scnr.nextLine();
-      String salary = scnr.nextLine();
-      System.out.println(name + " is " + age + " and makes $" + salary + ".");
+      
+      String fullName;
+      int age;
+      String salary;
+      
+      fullName = scnr.nextLine();
+      age = scnr.nextInt();
+      salary = scnr.next();
+      
+      System.out.println(fullName + " is " + age + " and makes $" + salary + ".");
+      
    }
 }
