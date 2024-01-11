@@ -2,16 +2,5 @@
 
 ---
 
-Write a program that takes a full name, age, and salary as inputs on separate lines. Output a formatted message containing the inputs, ending with a newline. Ensure your program output matches the example formatting below and works for a variety of input values.
+![image](https://github.com/PonguTracer/java_ex_4/assets/67764701/bd2b449d-c3b4-400b-a668-212809591cdf)
 
-If the input is:
-
-Pat Ford
-
-35
-
-60,000
-
-the output is:
-
-Pat Ford is 35 and makes $60,000.
